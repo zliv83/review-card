@@ -1,7 +1,10 @@
+// eslint-disable-next-line import/no-extraneous-dependencies
+import PropTypes from 'prop-types';
+
 import styles from './RatingCard.module.scss';
 import Card from '../Card';
 import Avatar from '../Avatar';
-import star from '@/public/icon-star.svg';
+import star from '../../../../public/icon-star.svg';
 import Rating from '../Rating';
 import Button from '../Button';
 
@@ -25,3 +28,7 @@ export default function RatingCard({ onSubmit }) {
     </Card>
   );
 }
+
+RatingCard.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+};

@@ -1,7 +1,8 @@
+/* eslint-disable react/prop-types */
 import { useContext } from 'react';
 
 import styles from './Selection.module.scss';
-import { RatingContext } from '@/utils/RatingProvider';
+import { RatingContext } from '../../../../../utils/RatingProvider';
 
 export default function Selection({ className }) {
   const { rating } = useContext(RatingContext);

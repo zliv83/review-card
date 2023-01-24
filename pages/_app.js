@@ -1,7 +1,9 @@
+/* eslint-disable react/jsx-props-no-spreading */
+/* eslint-disable react/prop-types */
 import Head from 'next/head';
 import { Overpass } from '@next/font/google';
 
-import '@/styles/globals.scss';
+import '../styles/globals.scss';
 
 const mont = Overpass({ subsets: ['latin'] });
 

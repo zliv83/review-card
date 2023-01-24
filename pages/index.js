@@ -1,6 +1,6 @@
-import styles from '@/styles/pages/Home.module.scss';
-import InteractiveRatingCard from '@/components/InteractiveRatingCard';
-import { RatingProvider } from '@/utils/RatingProvider';
+import styles from '../styles/pages/Home.module.scss';
+import InteractiveRatingCard from '../components/InteractiveRatingCard';
+import { RatingProvider } from '../utils/RatingProvider';
 
 export default function Home() {
   return (

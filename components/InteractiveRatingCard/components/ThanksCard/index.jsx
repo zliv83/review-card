@@ -1,6 +1,6 @@
 import styles from './ThanksCard.module.scss';
 import Card from '../Card';
-import thanks from '@/public/thanks.svg';
+import thanks from '../../../../public/thanks.svg';
 import Selection from './Selection';
 
 export default function ThanksCard() {
