@@ -1,0 +1,17 @@
+@import '@/styles/__settings.scss';
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: $darkBlue;
+
+  @include desktop() {
+    cursor: pointer;
+    height: 48px;
+    width: 48px;
+  }
+}

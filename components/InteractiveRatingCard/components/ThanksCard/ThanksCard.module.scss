@@ -1,0 +1,70 @@
+@import '@/styles/__settings.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 24px 37px 24px;
+  @include center();
+
+  .image {
+    width: 144px;
+    height: 96px;
+  }
+
+  .avatar {
+    margin-top: 24px;
+    width: 168px;
+    height: 32px;
+    border-radius: 22.5px;
+    color: $primary;
+  }
+
+  .selection {
+    margin-top: 24px;
+  }
+
+  .title {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: $white;
+    text-align: center;
+  }
+
+  .subTitle {
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: $lightGrey;
+    text-align: center;
+  }
+
+  @include desktop() {
+    padding: 45px 40px 45px 32px;
+
+    .image {
+      width: 162px;
+      height: 108px;
+    }
+
+    .selection {
+      margin-top: 32px;
+      width: 193px;
+      height: 32px;
+    }
+
+    .title {
+      margin-top: 32px;
+      height: 43px;
+      font-size: 28px;
+      line-height: 35px;
+    }
+
+    .subTitle {
+      margin-top: 7px;
+      height: 72px;
+    }
+  }
+}

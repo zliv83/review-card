@@ -1,5 +1,7 @@
 @import '../_settings';
 
 .page {
-  color: map-get($primary, 'main');
+  display: flex;
+  @include center();
+  min-height: 100vh;
 }

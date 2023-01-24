@@ -1,0 +1,14 @@
+@import '@/styles/__settings.scss';
+
+.card {
+  width: 327px;
+  height: 360px;
+  background: $blackGradient;
+  border-radius: 15px;
+
+  @include desktop() {
+    width: 412px;
+    height: 416px;
+    border-radius: 30px;
+  }
+}

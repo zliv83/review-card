@@ -1,9 +1,9 @@
 import Head from 'next/head';
-import { Montserrat } from '@next/font/google';
+import { Overpass } from '@next/font/google';
 
 import '@/styles/globals.scss';
 
-const mont = Montserrat({ subsets: ['latin'] });
+const mont = Overpass({ subsets: ['latin'] });
 
 export default function App({ Component, pageProps }) {
   return (

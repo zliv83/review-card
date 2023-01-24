@@ -1,0 +1,28 @@
+@import '@/styles/__settings.scss';
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 281px;
+  height: 42px;
+
+  .avatar {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.175px;
+    color: $mediumGrey;
+
+    @include desktop() {
+      height: 51px;
+      width: 51px;
+
+      &:hover {
+        background-color: $primary;
+        color: $white;
+      }
+    }
+  }
+}

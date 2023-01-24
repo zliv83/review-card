@@ -1,0 +1,61 @@
+@import '@/styles/__settings.scss';
+
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 24px 24px 32px 24px;
+
+  .title {
+    margin-top: 16px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: $white;
+  }
+
+  .subTitle {
+    margin-top: 17px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    color: $lightGrey;
+  }
+
+  .rating {
+    margin-top: 24px;
+  }
+
+  .button {
+    margin-top: 24px;
+  }
+
+  @include desktop() {
+    padding: 32px 40px 32px 32px;
+    height: 416px;
+
+    .title {
+      margin-top: 30px;
+      font-size: 28px;
+      line-height: 35px;
+      height: 43px;
+    }
+
+    .subTitle {
+      margin-top: 7px;
+      font-size: 15px;
+      line-height: 24px;
+      height: 72px;
+    }
+
+    .rating {
+      width: 341px;
+      height: 51px;
+    }
+
+    .button {
+      width: 341px;
+      height: 45px;
+      padding: 0;
+    }
+  }
+}
